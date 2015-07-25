@@ -1,40 +1,399 @@
-EDUCATION
-Georgetown College	Georgetown, KY
-Bachelor of Science Candidate in Information Systems | Minor Psychology	   May 2016 
+
+    <header style="border-top: 5px solid rgb(70, 162, 148);" class="site-header">
+ <link rel="stylesheet" type="text/css" href="CV..css">
+  <div class="wrapper">
+
+    <a class="site-title" href="/">SABERA DAQIQ</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        
+          
+        <!--  <a class="page-link" href="/projects/">Projects</a> -->
+          
+          <a class="page-link" href="https://github.com/Sara3">Github</a>
+          
+          
+          <a class="page-link" href='/Sabera_DaqiqCV.3.pdf/'>Resume</a>
+          
+        
+          
+        
+          
+        
+        <a class="page-link" href="mailto:sadaqiq@gmail.com">Contact</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+<script type="text/javascript">
+
+    // change the color of the site header border
+    var change_site_header_color = function(color) {
+      var site_header = $(".site-header");
+      site_header.css("border-top", "5px solid " + color);
+    }
+
+    // set random initial color values
+    var red = Math.floor(Math.random() * 255);
+    var green = Math.floor(Math.random() * 255);
+    var blue = Math.floor(Math.random() * 255);
+
+    // add 5 to the argument, and loop back to 0 if result is greater than 255
+    var color_add = function(color) {
+      color += 2;
+      if (color > 255) {
+        color = 0;
+      }
+      return color;
+    }
+
+    // set every 100ms, call a funcion to change the color of the site header border
+    setInterval(function() {
+      red  = color_add(red);
+      green = color_add(green);
+      blue = color_add(blue);
+      var color_string = "rgb(" + red + ", " + green + ", " + blue + ")";
+      change_site_header_color(color_string);
+    }, 300);
+  </script>
+	<div class="page-content">
+	  <div class="wrapper">
+	  <div class="skill-section">
+	  	<div class="skill-section-header">
+	  		<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJgAAAAJGJlZmM1NjQzLTU0NDktNDU4OC05ZjRkLTc2NDlhZWIzOTQ2MA.jpg" class="myface-small">
+	  		About Me
+	  	</div>
+	  	<div class="skill-section-body">
+	  		<p class="about-me">
+	  		<em></em>
+	  		</p>
+	  		<p class="about-me">
+	  			Enthusiastic, Charismatic, Energetic. I would describe myself like that. 
+	  			I will always put 100% into what I do, whether it would be coding, 
+	  			designing, or gaming. When I am faced with a new problem, 
+	  			I tackle it head on, look for solutions, learn new tools,
+	  			 and get a heck lot of enjoyment out of it. I have experience as a 
+	  			 front-end and a full-stack developer. If there's something I don't know,
+	  			  I will seek the resources to learn and explore it. Reach out to me! 
+	  			  I think we can work on something together.
+  			</p>
+	  		<p class="about-me">
+				I am a software engineer intern at Medallia.
+				 It is a software company in Palo Alto offering SaaS solutions for
+				  Customer Experience Management (CEM). We conduct surveys and build 
+				  informative reports about our client's customers' experiences.
+				   I work on the front end team, and my scrum team is involved in 
+				   the redesign of our infrastructure to improve developer productivity
+				    by decoupling front end and back end services, incorporating 
+				    continuous integration, and better testing framework and coverage. 
+				    I am building a middleware designed to load any kind and any version 
+				    of GitHub repos that Medallia maintains.
+  			</p>
+	  		<p class="about-me">
+				As always, I love opportunities to share and learn. 
+				Let me know if you would like to talk your work and experiences or
+				 to learn more about what I do.
+	  		</p>
+	  	</div>
+	  	<div class="skill-section-footer"></div>
+	  	</div>
+	 	<div class="skill-section">
+		  	<div class="skill-section-header">
+		  		Development Experience
+		  		<span class="skill-pill skill-industry-experience">Industry Experience</span>
+		  		<span class="skill-pill">Classroom/Hobbies</span>
+		  	</div>
+		  	<div class="skill-section-body">
+			  	<table class="skill-section-table">
+				  	<tbody><tr>
+				  		<td>Languages</td>
+				  		<td>
+					  		<span class="skill-pill skill-industry-experience">JavaScript</span>
+				  			<span class="skill-pill skill-industry-experience">Node.js</span>
+					  		<span class="skill-pill skill-industry-experience">Java</span>
+				  			<span class="skill-pill skill-industry-experience">MySQL</span>
+				  			<span class="skill-pill skill-industry-experience">Solr</span>
+				  			<span class="skill-pill skill-industry-experience">git</span>
+				  			<span class="skill-pill skill-industry-experience">Unix</span>
+				  			<span class="skill-pill">C</span>
+				  			<span class="skill-pill">C++</span>
+				  			<span class="skill-pill">PHP</span>
+				  			<span class="skill-pill">PostgresSQL</span>
+				  		</td>
+				  	</tr>
+				  	<tr>
+				  		<td>Frameworks</td>
+				  		<td>
+				  			<span class="skill-pill skill-industry-experience">Spring MVC</span>
+				  			<span class="skill-pill skill-industry-experience">Require.js</span>
+				  			<span class="skill-pill skill-industry-experience">jQuery.js</span>
+				  			<span class="skill-pill skill-industry-experience">Mocha</span>
+				  			<span class="skill-pill">Ruby on Rails</span>
+				  		</td>
+				  	</tr>
+				  	<tr>
+				  		<td>Other</td>
+				  		<td>
+				  			<span class="skill-pill skill-industry-experience">ES2015</span>
+				  			<span class="skill-pill skill-industry-experience">HTTP/2.0</span>
+				  			<span class="skill-pill">Jekyll</span>
+				  			<span class="skill-pill">Heroku</span>
+				  		</td>
+				  	</tr>
+			  	</tbody></table>
+		  	</div>
+		  	<div class="skill-section-footer">
+			</div>
+  		</div>
+		<div class="skill-section">
+		  	<div class="skill-section-header">
+		  	Education
+		  	</div>
+		  	<div class="skill-section-body">
+		  		<table class="skill-section-table">
+					<tbody><tr>
+						<td>2012 - 2016</td>
+						<td>
+						
+						<strong>Information Systems</strong><br>
+						Georgetown College, <em>Georgetown</em>
+						</td>
+					</tr>
+				</tbody></table>
+		  	</div>
+		  	<div class="skill-section-footer">
+		  	</div>
+	  	</div>
+	  	<div class="skill-section">
+		  	<div class="skill-section-header">
+		  		Work Experience
+		  	</div>
+		  	<div class="skill-section-body">
+			  	<table class="skill-section-table">
+			  		<tbody><tr>
+			  			<td>
+				  			<div class="work-company-name">Girls Who Code</div>
+				  			May 2015 - Present<br>
+				  			<div class="work-company-logo-wrapper">
+				  				<img src="http://craigconnects.org/wp-content/uploads/girls-who-code-logo.png" class="work-company-logo">
+			  				</div>
+			  			</td>
+			  			<td>
+				  			<ul>
+				  			lead 7 weeks intensive coding camp teaching 20 high school juniors and seniors in summer of 2015
+								<li>Developing an Express/Connect middleware to deliver any packages at any version from company's GitHub, utilizing various in-memory and file system level caching, creating APIs and standards to configure module loading</li>
+								<li>Designed a prototype using HTTP/2 and ES2015 modules to prove the ability to improve modularity and file caching</li>
+								<li>Introduced System.js to load modules in CommonJS, globals, and ES2015 format replacing Require.js</li>
+								<li>Integrated Git into Node.js server to access files at various Git revisions on demand</li>
+								<li>Replaced testing tools built in-house with industry standard frameworks Karma and Mocha to improve test coverage and test authoring efficiency</li>
+							</ul>
+			  			</td>
+			  		</tr>
+			  		<tr>
+			  			<td>
+				  			<div class="work-company-name">Square</div>
+				  			Sep 2014 - Dec 2014<br>
+				  			<div class="work-company-logo-wrapper">
+				  				<img src="http://relevance.com/wp-content/uploads/2015/04/square_logo_portrait" class="work-company-logo">
+			  				</div>
+			  			</td>
+			  			<td>
+				  			<ul>
+				  				<li>Utilized Spring MVC to build Java web app with an elegant interface to quickly search and modify music lyrics</li>
+								<li>Improved MySQL queries efficiency by reducing hundreds of lazy loading queries into one query</li>
+								<li>Implemented custom Data Access Objects (DAO), schema, data serializer for MySQL and Solr</li>
+								<li>Practiced test driven development by designing test cases and writing unit tests before coding</li>
+							</ul>
+			  			</td>
+			  		</tr>
+			  		<tr>
+			  			<td>
+			  				<div class="work-company-name">AccessLocal</div>
+			  				Jan 2014 - Apr 2014<br>
+				  			<div class="work-company-logo-wrapper">
+				  				<img src="http://www.accessemployment.com.au/Learn_Local_logo_COLOUR_Web.jpg" class="work-company-logo">
+			  				</div>
+			  			</td>
+			  			<td>
+			  				<ul>
+								<li>Configured and tested software using virtual machines to ensure cross browser and platform compatibility</li>
+								<li>Enhanced the scope of test cases to test location based services, connection speed, and mobile devices by creating new testing strategies and standards using web proxy Charles</li>
+								<li>Reduced hours of tedious and repetitive tasks by writing automation tests in Unix commands</li>
+							</ul>
+			  			</td>
+			  		</tr>
+			  	</tbody></table>
+		  	</div>
+		  	<div class="skill-section-footer">
+		  	</div>
+	  	</div>
+	  	<div class="skill-section">
+		  	<div class="skill-section-header">
+		  	Projects
+		  		<small>(<a "">Github</a>)</small>
+		  	</div>
+		  	<div class="skill-section-body">
+				<table class="skill-section-table">
+					<tbody><tr>
+						<td class="work-in-progress">
+							<a href="">LIFE IS A BEAR <em>(Work In Progress)</em></a>
+						</td>
+						<td>
+							3D GAME
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a ">AMC/a>
+						</td>
+						<td>
+							Programing competation .<br>
+							Tools: <span class="skill-pill skill-industry-experience">JavaScript</span> <span class="skill-pill">Ruby on Rails</span> <span class="skill-pill">Bourbon</span> <span class="skill-pill">Sass</span>
+						</td>
+					</tr>
+					
+				</tbody></table>
+		  	</div>
+		  	-->
+		  	<div class="skill-section-footer">
+		  	</div>
+	  	</div> 
+	  	<div class="skill-section">
+		  	<div class="skill-section-header">
+		  		Community Involvement
+		  	</div>
+		  	<div class="skill-section-body">
+		  		<div class="skill-section-carousel">
+  					<div class="carousel-group">
+		  				<div class="carousel-title">
+		  					Velocity Residence
+	  					</div>
+		  				<div class="carousel-subtitle">
+		  					A residence program that connects enthusiastic entrepreneurs
+		  				</div>
+						<div class="carousel-body">
+							<a href="http://velocity.uwaterloo.ca"><img src="/assets/velocity_logo.png" class="carousel-body-img"></a>
+						</div>
+					</div>
+					<div class="carousel-gutter"></div>
+  					<div class="carousel-group">
+	  					<div class="carousel-title">
+	  						Restaurant Host/Expedite
+  						</div>
+	  					<div class="carousel-subtitle">
+	  					Greet customers with a smile! Always making sure their visit is the best
+	  					</div>
+						<div class="carousel-body">
+							<a href="http://www.feds.ca/bomber"><img src="/assets/bomber_logo.png" class="carousel-body-img"></a>
+						</div>
+					</div>
+					<div class="carousel-gutter"></div>
+  					<div class="carousel-group">
+	  					<div class="carousel-title">
+	  						Co-op Connection Coordinator
+  						</div>
+	  					<div class="carousel-subtitle">
+	  					Connecting co-op students on their work terms by organizing social events
+	  					</div>
+						<div class="carousel-body">
+							<a href="http://www.feds.ca/coop"><img src="/assets/coopconnection_logo.png" class="carousel-body-img"></a>
+						</div>
+					</div>
+		  		</div>
+		  	</div>
+		  	<div class="skill-section-footer">
+		  	</div>
+	  	</div>
+	  	<div class="skill-section">
+		  	<div class="skill-section-header">
+		  		Hobbies
+		  	</div>
+		  	<div class="skill-section-body">
+			  	<div class="hobbies">
+			  		<div class="hobby">Skydiving</div>
+			  		<div class="hobby">Chess</div>
+			  		<div class="hobby">Hiking</div>
+			  		<div class="hobby">Yoga</div>
+			  		<div class="hobby">Movies</div>
+			  		<div class="hobby">Travelling</div>
+			  		
+			  	</div>
+		  	</div>
+		  	<div class="skill-section-footer">
+		  	</div>
+	  	</div> 
+	  </div>
+	</div>
+
+	<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">SABERA DAQIQ</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>SABERA DAQIQ</li>
+          <li><a href="mailto:sadaqiq@gmail.com">sadaqiq@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="r">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path>
+                </svg>
+              </span>
+
+              <span class="username"></span>
+            </a>
+          </li>
+          
+<!--
+         \
+          
+          <li>
+            <a href="https://youtube.com/nflavour">
+              <span class="icon  icon--youtube">
+                <svg viewBox="0 0 100 100">
+                    <path fill="#828282" d="M95,32.458C95,25.025,88.979,19,81.55,19 h-63.1 C11.021,19,5,25.025,5,32.458v36.084C5,75.975,11.021,82,18.45,82h63.1C88.979,82,95,75.975,95,68.542V32.458z M41,65.724V31.83 l25.702,16.947L41,65.724z"></path>
+                </svg>
+              </span>
+              <span class="username">nflavour</span>
+            </a>
+          </li>
+          -->
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text"><strong>Jekyll:</strong> 'Write an awesome description for your new site here.'<br> <strong>Tony:</strong> 'It's not awesome enough yet. So the description is going to have to wait'
+</p>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54785648-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</footer>
 
 
-EXPERIENCE
 
-Girls Who Code at Square,  Inc.  | Teaching Team                                                                                     
-lead 7 weeks intensive coding camp teaching 20 high school juniors and seniors in summer of 2015	
- 40 hours a week project based approach about abstraction, computational thinking, algorithm development, and basic programing constructs 
-A week workshop about design and build process, end to end
-Moderated each students to program robots to performed tasks (i.e. Dance to the rhythm of a song)  using Python and JavaScript
-Build interactive website with engaging user experience and mobile friendly 
-Monitored students interviewing key Tech industry leaders (Jack Dorsey, Ron Conway) and going to field trips into leading companies (Facebook, Twitter)to understanding of how Computer Science can be applied to real world problem solving across domains
 
-Accesslocal | Founder                                                                                                           2011- Present		     
- Creating digital presents for small local businesses (ie. Websites, content, grants)
-Source and develop marketing venues in partnership with colleges
-Spearhead grant proposal writing 
-In June 2012, recruited five skilled women to create merchandise with materials funded by founding members’ seed money which lead to a self sustained company now
-
-Georgetown College IT Department | Web Developer 	Summer 2013 
-Developed and redesigned 20 websites for each department of the college 
-Validated and updated contents   		
-
-INTERNATIONAL CONFERENCES & DIALOGUES
-
-HPAIR - The Harvard Project for Asian and International Relations	Taipei |Taiwan 
-One month program on Entrepreneurship and changing market in Asia.	August 2012
-	
-AMENDS - American Middle Eastern Network for Dialogue  at Stanford University   Palo Alto, CA                       AMENDS is a collaborative student-led initiative supporting leaders who are working           August 2013
- to ignite concrete social and economic development in the MENA region
-		
-LANGUAGE
-Fluent in Persian and English	
-
-Awards 
-
-add github
-graohs 

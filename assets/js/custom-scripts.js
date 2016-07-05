@@ -1,18 +1,18 @@
-(function($) {
+// (function($) {
     
-    'use strict';
+//     'use strict';
 
 
 
-    /**
-     * ==============================
-     * Function for email address validation         
-     * ==============================
-     */
-    function isValidEmail(emailAddress) {
-    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
-        return pattern.test(emailAddress);
-    };
+//     /**
+//      * ==============================
+//      * Function for email address validation         
+//      * ==============================
+//      */
+//     function isValidEmail(emailAddress) {
+//     var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+//         return pattern.test(emailAddress);
+//     };
 
 
 
@@ -28,24 +28,24 @@
         // will first fade out the loading animation
         $("#main-preloader").fadeOut();
         //then background color will fade out slowly
-        $("#main-preloader .loading-center-absolute").delay(200).fadeOut(300);
-
-
-        /**
-         * ====================
-         * PORTFOLIO 
-         * ====================
-         */
-        if( $('.grid').length ) {
-            $('.grid').isotope({
-              layoutMode: 'packery',
-              
-              packery: {
-                
-              },
-              itemSelector: '.grid-item',
-              percentPosition: true,
-            });
+            // $("#main-preloader .loading-center-absolute").delay(200).fadeOut(300);
+    
+    
+            // /**
+            //  * ====================
+            //  * PORTFOLIO 
+            //  * ====================
+            //  */
+            // if( $('.grid').length ) {
+            //     $('.grid').isotope({
+            //       layoutMode: 'packery',
+                  
+            //       packery: {
+                    
+            //       },
+            //       itemSelector: '.grid-item',
+            //       percentPosition: true,
+            //     });
 
             // Portfolio function
             var textProp = document.documentElement.textContent !== undefined ? 'textContent' : 'innerText';
@@ -301,37 +301,37 @@
          * CONTACT FORM 
          * ============================
         */
-        $("#contact-us-form").submit(function(e) {
-            e.preventDefault();
-            var data = {
-                name: $("#contact-us-name").val(),
-                email: $("#contact-us-email").val(),
-                subject: $("#contact-us-subject").val(),
-                message: $("#contact-us-message").val()
-            };
-            //alert(data['name']+data['email']+data['subject']+data['message']);
+//         $("#contact-us-form").submit(function(e) {
+//             e.preventDefault();
+//             var data = {
+//                 name: $("#contact-us-name").val(),
+//                 email: $("#contact-us-email").val(),
+//                 subject: $("#contact-us-subject").val(),
+//                 message: $("#contact-us-message").val()
+//             };
+//             //alert(data['name']+data['email']+data['subject']+data['message']);
 
-            if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) && (data['subject'].length > 1) ) {
-                $.ajax({
-                    type: "POST",
-                    url: "./contactform.php",
-                    data: data,
-                    success: function() {
-                        $('.email-success').delay(500).fadeIn(1000);
-                        $('.email-failed').fadeOut(500);
-                    }
-                });
-            } else {
-                $('.email-failed').delay(500).fadeIn(1000);
-                $('.email-success').fadeOut(500);
-            }
+//             if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) && (data['subject'].length > 1) ) {
+//                 $.ajax({
+//                     type: "POST",
+//                     url: "./contactform.php",
+//                     data: data,
+//                     success: function() {
+//                         $('.email-success').delay(500).fadeIn(1000);
+//                         $('.email-failed').fadeOut(500);
+//                     }
+//                 });
+//             } else {
+//                 $('.email-failed').delay(500).fadeIn(1000);
+//                 $('.email-success').fadeOut(500);
+//             }
 
-            return false;
-        });
+//             return false;
+//         });
 
-    });
+//     });
 
-} (jQuery) );
+// } (jQuery) );
 
 
 

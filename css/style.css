@@ -77,7 +77,10 @@ a:focus{
 }
 
 .content{
-	padding: 15% 0 18% 0;
+	padding: 15% 0 14% 0;
+	text-align: center;
+}
+.content1{
 	text-align: center;
 }
 /* Navigation */

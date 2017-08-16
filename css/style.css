@@ -70,6 +70,10 @@ a:focus{
 	background-repeat: no-repeat;
 	color: #cfcfcf;
 }
+li {
+   
+     list-style-type: none;
+}
 
 #tf-home .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */

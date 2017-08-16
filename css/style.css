@@ -21,7 +21,14 @@ h2{
 	line-height: 20px;
 	margin:  0;
 }
-
+.article {
+    color: #2F937B;
+	text-decoration: none;
+    
+}
+.icon {
+    padding: 4px;
+}
 h4 {
 	margin-bottom: 20px;
 	font-size: 16px;
@@ -39,7 +46,7 @@ a {
 a:hover,
 a:focus{
 	color: #2F937B;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .clearfix:after {

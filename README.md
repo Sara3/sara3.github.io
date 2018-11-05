@@ -3,4 +3,4 @@
 These are files for my website. 
 Check out my website: 
 
-saberadaqiq.me
+saradaqiq.me
